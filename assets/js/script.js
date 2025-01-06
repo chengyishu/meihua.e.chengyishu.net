@@ -246,7 +246,7 @@ $(function() {
   $("#ben .card-body .title").html(benName);
   $("#ben .card-body .pinyin").html(benPinyin);
   $("#ben").on("click", function() {
-    window.open("https://e.chengyishu.net/data/?gua="+benName,"_blank");
+    window.open("https://e.23-6.site/data/?gua="+benName,"_blank");
   });
   // 互卦卦名
   var huName=the64Guas[guasXiang[huUp]+guasXiang[huDown]]["name"];
@@ -254,7 +254,7 @@ $(function() {
   $("#hu .card-body .title").html(huName);
   $("#hu .card-body .pinyin").html(huPinyin);
   $("#hu").on("click", function() {
-    window.open("https://e.chengyishu.net/data/?gua="+huName,"_blank");
+    window.open("https://e.23-6.site/data/?gua="+huName,"_blank");
   });
   // 变卦卦名
   var bianName=the64Guas[guasXiang[bianUp]+guasXiang[bianDown]]["name"];
@@ -262,7 +262,7 @@ $(function() {
   $("#bian .card-body .title").html(bianName);
   $("#bian .card-body .pinyin").html(bianPinyin);
   $("#bian").on("click", function() {
-    window.open("https://e.chengyishu.net/data/?gua="+bianName,"_blank");
+    window.open("https://e.23-6.site/data/?gua="+bianName,"_blank");
   });
 
   // 画卦
